@@ -1,2 +1,10 @@
-aaj ka hisab -1200
-18 ka hisab
+jab bhi aap ek folder bnate hai git ko kuch nahi pata aapke folder ke bare mein, 
+isiliye aap waha pe git ko intialise krte ho, ab git ko permission mili hai to git 
+aapke folder ko pehachaanta hai, to ab kyuki git kaam kr sakta hai is folder per ab ham yaha par 
+untracked, tracked, modified, staged, and saved check points create kar sakte hai, git kuch interesting chize 
+kr sakta hai jaise ki aap chaahe to kisi bhi moment par ye check kr sakte ho aapki kitni files kis stage par hai
+
+->intialise kro 
+-> check kr sakte ho aap konsi file kis stage mein hai -> (git status -s)commands
+->  check kr sakte ho aap kitne saved checkpoints hai -> (git log --oneline  --graph)
+-> branching 
