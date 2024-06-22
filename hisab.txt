@@ -7,4 +7,13 @@ kr sakta hai jaise ki aap chaahe to kisi bhi moment par ye check kr sakte ho aap
 ->intialise kro 
 -> check kr sakte ho aap konsi file kis stage mein hai -> (git status -s)commands
 ->  check kr sakte ho aap kitne saved checkpoints hai -> (git log --oneline  --graph)
--> branching 
+
+
+git status srf unka status batayega jo files commited nahi hai ya fir commit ke
+bad change ki gyi  
+git status batata h files ke changes ke bare me and uske state
+ke bare mein, before commit or after commit
+
+git status batata h commit ke phle and bad ki file stage 
+
+git log batat h sare commit histories
